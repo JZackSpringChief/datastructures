@@ -69,3 +69,8 @@ Order of Growth:
        - N                      - Linear
        - lgN                    - Logarithmic
        - 1                      - constant
+
+- Big-O Notation
+- Depending on the input, an algorithm can demonstrate the best, the worst, and average cases
+- We almsot always are interested in estimating the worst case
+- Big-O determines the function which describes the worst case for an algorithm
