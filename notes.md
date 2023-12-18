@@ -47,3 +47,25 @@ Intro to Algorithm Analysis
 
 - how much time will out algorithm take for solving a problem?
 - how much memory will our algorithm consume for solving a problem?
+
+- 99% of cases we do not care about smaller terms(just trimming them)
+
+Donald Knuth postulated that to build a precise mathematical model describing running time of any program, we need to take into account two major factors:
+
+    - cost of executing each statement in a giving program
+    - frequency of execution of each statement in a given program
+
+- Cost of executing of each statement depends on external factors: OS, execution enviroment etc.
+- "Cost of executing each statement" facrot in 99% of case now is irrelevant
+- The real challenge is to determine the frequency of execution of statments and try to reduce it as much as possible.
+
+Order of Growth:
+
+       - Order of Growth        - Description
+       -  2'N                   - Exponential
+       - N'3                    - Cubic
+       - N'2                    - Quadratic
+       - NlogN                  - Linearithmic
+       - N                      - Linear
+       - lgN                    - Logarithmic
+       - 1                      - constant
